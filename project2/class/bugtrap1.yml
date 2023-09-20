@@ -1,0 +1,49 @@
+robot:
+  - name: "l1"
+    joint: "flying"
+    limits:
+      upper: [1.502, 2]
+      lower: [-2, -2]
+    geometry:
+      - type: "box"
+        dimensions: [0.6, 0.2]
+
+  - name: "obstacle3"
+    tip: [-1.5, -1.5, 9.7]  # Modified position
+    geometry:
+      - type: "box"
+        dimensions: [1.9, 0.05]  # Make it narrower
+        color: [0.2, 0.2, 0.5, 1]
+        
+  - name: "obstacle6"
+    tip: [-1.5, 1.5, -9.7]  # Modified position
+    geometry:
+      - type: "box"
+        dimensions: [1.9, 0.05]  # Make it narrower
+        color: [0.2, 0.2, 0.5, 1]
+
+  - name: "obstacle4"
+    tip: [0.8, 0.75, 0.75]  # Modified position
+    geometry:
+      - type: "circle"
+        dimensions: [0.5]
+        color: [0, 0, 0, 1]
+
+  - name: "obstacle5"
+    tip: [0.8, -0.7, 0.75]  # Modified position
+    geometry:
+      - type: "circle"
+        dimensions: [0.5]
+        color: [0, 0, 0, 1]
+
+
+states:
+  - name: "start"
+    configuration:
+    - frame: "l1"
+      value: [-0.6, 0.60, 0]
+
+  - name: "goal"
+    configuration:
+    - frame: "l1"
+      value: [0, 1.84, 0]  # Modified goal position
