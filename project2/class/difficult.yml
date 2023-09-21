@@ -1,7 +1,10 @@
 robot:
   - name: "base"
-    joint: "fixed"
+    joint: "flying"
     parent: "root"
+    limits:
+      upper: [10, 6]
+      lower: [-10, -6]
     tip: [0, 0, 0]
     geometry:
       - type: "circle"
@@ -28,13 +31,13 @@ robot:
         color: [0.7, 0.3, 1.0, 1]
   
   - name: "link_2"
-    joint: "prismatic"
+    joint: "revolute"
     parent: "link_1"
-    tip: [2.5, 0, 0]
+    tip: [2.5, 0, 0]  
     allowed: ["link_1", "base"]
     limits:
-      upper: 4
-      lower: -6.5
+      upper: 3.14
+      lower: -3.14
     geometry:
       - type: "convex"
         points:
@@ -44,10 +47,6 @@ robot:
           - [3, 0.25]
         offset: [-2.5, 0, 0]
         color: [0.7, 0.3, 1.0, 1]
-      - type: "circle"
-        dimensions: [0.1]
-        color: [0.2, 0.2, 0.2, 1]
-        offset: [-2.5, 0, 0]
 
   - name: "obstacle_1"
     tip: [-0.2, 3.5, 0]
@@ -66,7 +65,7 @@ robot:
         dimensions: [0.5, 2.7]
         color: [0.2, 0.5, 0.2, 1]
       - type: "box"
-        dimensions: [0.4, 0.8]
+        dimensions: [0.38, 0.8]
         offset: [-0.5, 0, 0]
         color: [0.2, 0.5, 0.2, 1]
 
@@ -108,14 +107,18 @@ robot:
 states:
   - name: "start"
     configuration:
+      - frame: "base"
+        value: [5.12, 0.48, -0.817]
       - frame: "link_1"
-        value: [-1.005]
+        value: [-0.754]
       - frame: "link_2"
         value: [1.795]
   
   - name: "goal"
     configuration:
+      - frame: "base"
+        value: [-0.960, 5.120, -1.948]
       - frame: "link_1"
-        value: [-0.377]
+        value: [0]
       - frame: "link_2"
-        value: [3.895]
+        value: [2.575]
