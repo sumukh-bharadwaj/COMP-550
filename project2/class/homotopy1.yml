@@ -2,7 +2,7 @@ robot:
   - name: "l1"
     joint: "flying"
     limits:
-      upper: [1.502, 2]
+      upper: [2, 2]
       lower: [-2, -2]
     geometry:
       - type: "box"
@@ -14,33 +14,33 @@ robot:
       - type: "box"
         dimensions: [2.0, 0.05]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
-        
+
   - name: "obstacle6"
     tip: [-1.5, 2, 0]  # Modified position
     geometry:
       - type: "box"
         dimensions: [2, 0.05]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
-        
+
   - name: "obstacle8"
-    tip: [0.7, 0, 0]  # Modified position
+    tip: [0.45, 0, 0]  # Modified position
     geometry:
       - type: "box"
         dimensions: [0.05, 0.9]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
-        
+
   - name: "obstacle9"
     tip: [0, 0.85, 0]  # Modified position
     geometry:
       - type: "box"
         dimensions: [0.5, 0.05]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
-        
+
   - name: "obstacle13"
-    tip: [-1.3, 0, 0]  # Modified position
+    tip: [-1.6, 0, 0]  # Modified position
     geometry:
       - type: "box"
-        dimensions: [0.5, 0.05]  # Make it narrower
+        dimensions: [0.7, 0.05]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
         
         
@@ -48,16 +48,16 @@ robot:
     tip: [-1.8, 0, 0]  # Modified position
     geometry:
       - type: "box"
-        dimensions: [0.05, 1]  # Make it narrower
+        dimensions: [0.05, 1.0]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
-        
+
   - name: "obstacle11"
     tip: [-1.5, -1.4, 0]  # Modified position
     geometry:
       - type: "box"
         dimensions: [0.5, 0.05]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
-        
+
   - name: "obstacle12"
     tip: [+1.0, +1.4, 0]  # Modified position
     geometry:
@@ -66,10 +66,10 @@ robot:
         color: [0.2, 0.2, 0.5, 1]
         
   - name: "obstacle14"
-    tip: [0.7, -1.0, 0]  # Modified position
+    tip: [0.3, -0.8, 0]  # Modified position
     geometry:
       - type: "box"
-        dimensions: [0.5, 0.05]  # Make it narrower
+        dimensions: [0.9, 0.05]  # Make it narrower
         color: [0.2, 0.2, 0.5, 1]
 
 
@@ -99,4 +99,4 @@ states:
   - name: "goal"
     configuration:
     - frame: "l1"
-      value: [1.397, 1.80, 0]  # Modified goal position
+      value: [-0.109, 1.400, 0]  # Modified goal position
