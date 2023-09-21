@@ -1,0 +1,1683 @@
+Info:    Beginning benchmark
+Info:    No planner specified. Using default.
+Info:    LBKPIECE1: Attempting to use default projection.
+Debug:   LBKPIECE1: Planner range detected to be 1.646116
+Info:    Preparing for run 0 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 592 states (8 start + 584 goal)
+Info:    SimpleSetup: Path simplification took 0.015895 seconds and changed from 21 to 11 states
+Info:    Preparing for run 1 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 4785 states (44 start + 4741 goal)
+Info:    SimpleSetup: Path simplification took 0.014593 seconds and changed from 20 to 13 states
+Info:    Preparing for run 2 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 2861 states (28 start + 2833 goal)
+Info:    SimpleSetup: Path simplification took 0.022174 seconds and changed from 27 to 11 states
+Info:    Preparing for run 3 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 2309 states (16 start + 2293 goal)
+Info:    SimpleSetup: Path simplification took 0.017455 seconds and changed from 22 to 12 states
+Info:    Preparing for run 4 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1593 states (16 start + 1577 goal)
+Info:    SimpleSetup: Path simplification took 0.015454 seconds and changed from 18 to 14 states
+Info:    Preparing for run 5 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 116 states (11 start + 105 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018163 seconds and changed from 22 to 16 states
+Info:    Preparing for run 6 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 898 states (15 start + 883 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015874 seconds and changed from 22 to 16 states
+Info:    Preparing for run 7 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1023 states (11 start + 1012 goal)
+Info:    SimpleSetup: Path simplification took 0.014038 seconds and changed from 19 to 11 states
+Info:    Preparing for run 8 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 105 states (4 start + 101 goal)
+Info:    SimpleSetup: Path simplification took 0.014364 seconds and changed from 17 to 11 states
+Info:    Preparing for run 9 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 257 states (7 start + 250 goal)
+Info:    SimpleSetup: Path simplification took 0.013260 seconds and changed from 14 to 11 states
+Info:    Preparing for run 10 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 577 states (14 start + 563 goal)
+Info:    SimpleSetup: Path simplification took 0.013383 seconds and changed from 23 to 10 states
+Info:    Preparing for run 11 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 774 states (11 start + 763 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017876 seconds and changed from 16 to 10 states
+Info:    Preparing for run 12 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1301 states (12 start + 1289 goal)
+Info:    SimpleSetup: Path simplification took 0.016953 seconds and changed from 19 to 13 states
+Info:    Preparing for run 13 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 531 states (10 start + 521 goal)
+Info:    SimpleSetup: Path simplification took 0.016790 seconds and changed from 17 to 11 states
+Info:    Preparing for run 14 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1121 states (17 start + 1104 goal)
+Info:    SimpleSetup: Path simplification took 0.015671 seconds and changed from 19 to 9 states
+Info:    Preparing for run 15 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1372 states (18 start + 1354 goal)
+Info:    SimpleSetup: Path simplification took 0.014849 seconds and changed from 19 to 14 states
+Info:    Preparing for run 16 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 28 states (7 start + 21 goal)
+Info:    SimpleSetup: Path simplification took 0.014330 seconds and changed from 11 to 14 states
+Info:    Preparing for run 17 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1451 states (14 start + 1437 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016292 seconds and changed from 18 to 10 states
+Info:    Preparing for run 18 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1183 states (12 start + 1171 goal)
+Info:    SimpleSetup: Path simplification took 0.013718 seconds and changed from 18 to 9 states
+Info:    Preparing for run 19 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 219 states (6 start + 213 goal)
+Info:    SimpleSetup: Path simplification took 0.012692 seconds and changed from 15 to 12 states
+Info:    Preparing for run 20 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 262 states (11 start + 251 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.013491 seconds and changed from 18 to 12 states
+Info:    Preparing for run 21 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1163 states (23 start + 1140 goal)
+Info:    SimpleSetup: Path simplification took 0.015768 seconds and changed from 21 to 10 states
+Info:    Preparing for run 22 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1074 states (11 start + 1063 goal)
+Info:    SimpleSetup: Path simplification took 0.017001 seconds and changed from 20 to 13 states
+Info:    Preparing for run 23 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 699 states (9 start + 690 goal)
+Info:    SimpleSetup: Path simplification took 0.013668 seconds and changed from 18 to 16 states
+Info:    Preparing for run 24 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 399 states (17 start + 382 goal)
+Info:    SimpleSetup: Path simplification took 0.015839 seconds and changed from 22 to 11 states
+Info:    Preparing for run 25 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 234 states (11 start + 223 goal)
+Info:    SimpleSetup: Path simplification took 0.017505 seconds and changed from 17 to 11 states
+Info:    Preparing for run 26 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 487 states (10 start + 477 goal)
+Info:    SimpleSetup: Path simplification took 0.012662 seconds and changed from 23 to 9 states
+Info:    Preparing for run 27 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1896 states (18 start + 1878 goal)
+Info:    SimpleSetup: Path simplification took 0.014992 seconds and changed from 22 to 13 states
+Info:    Preparing for run 28 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1808 states (13 start + 1795 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.014232 seconds and changed from 17 to 13 states
+Info:    Preparing for run 29 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1113 states (16 start + 1097 goal)
+Info:    SimpleSetup: Path simplification took 0.014867 seconds and changed from 23 to 13 states
+Info:    Preparing for run 30 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 124 states (117 start + 7 goal)
+Info:    SimpleSetup: Path simplification took 0.011976 seconds and changed from 17 to 11 states
+Info:    Preparing for run 31 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 367 states (7 start + 360 goal)
+Info:    SimpleSetup: Path simplification took 0.015628 seconds and changed from 16 to 13 states
+Info:    Preparing for run 32 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 2106 states (19 start + 2087 goal)
+Info:    SimpleSetup: Path simplification took 0.015888 seconds and changed from 25 to 12 states
+Info:    Preparing for run 33 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 355 states (10 start + 345 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016549 seconds and changed from 17 to 13 states
+Info:    Preparing for run 34 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 73 states (5 start + 68 goal)
+Info:    SimpleSetup: Path simplification took 0.013304 seconds and changed from 16 to 13 states
+Info:    Preparing for run 35 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 92 states (46 start + 46 goal)
+Info:    SimpleSetup: Path simplification took 0.016111 seconds and changed from 16 to 10 states
+Info:    Preparing for run 36 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 2241 states (23 start + 2218 goal)
+Info:    SimpleSetup: Path simplification took 0.014316 seconds and changed from 23 to 13 states
+Info:    Preparing for run 37 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 886 states (19 start + 867 goal)
+Info:    SimpleSetup: Path simplification took 0.013974 seconds and changed from 24 to 10 states
+Info:    Preparing for run 38 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1797 states (22 start + 1775 goal)
+Info:    SimpleSetup: Path simplification took 0.012403 seconds and changed from 20 to 15 states
+Info:    Preparing for run 39 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 982 states (16 start + 966 goal)
+Info:    SimpleSetup: Path simplification took 0.014512 seconds and changed from 14 to 10 states
+Info:    Preparing for run 40 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 494 states (12 start + 482 goal)
+Info:    SimpleSetup: Path simplification took 0.014776 seconds and changed from 22 to 15 states
+Info:    Preparing for run 41 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1279 states (23 start + 1256 goal)
+Info:    SimpleSetup: Path simplification took 0.017336 seconds and changed from 21 to 15 states
+Info:    Preparing for run 42 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 483 states (10 start + 473 goal)
+Info:    SimpleSetup: Path simplification took 0.012765 seconds and changed from 19 to 11 states
+Info:    Preparing for run 43 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 334 states (8 start + 326 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.013953 seconds and changed from 14 to 12 states
+Info:    Preparing for run 44 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 621 states (10 start + 611 goal)
+Info:    SimpleSetup: Path simplification took 0.013724 seconds and changed from 21 to 12 states
+Info:    Preparing for run 45 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1682 states (13 start + 1669 goal)
+Info:    SimpleSetup: Path simplification took 0.014283 seconds and changed from 20 to 12 states
+Info:    Preparing for run 46 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 1191 states (16 start + 1175 goal)
+Info:    SimpleSetup: Path simplification took 0.014725 seconds and changed from 23 to 13 states
+Info:    Preparing for run 47 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 2869 states (31 start + 2838 goal)
+Info:    SimpleSetup: Path simplification took 0.015556 seconds and changed from 22 to 11 states
+Info:    Preparing for run 48 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 103 states (3 start + 100 goal)
+Info:    SimpleSetup: Path simplification took 0.011677 seconds and changed from 14 to 18 states
+Info:    Preparing for run 49 of geometric_RRTConnect Range 5.
+Info:    RRTConnect Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 5.: Created 297 states (9 start + 288 goal)
+Info:    SimpleSetup: Path simplification took 0.011695 seconds and changed from 16 to 13 states
+Info:    Preparing for run 0 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 67 states (22 start + 45 goal)
+Info:    SimpleSetup: Path simplification took 0.015820 seconds and changed from 14 to 11 states
+Info:    Preparing for run 1 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 106 states (83 start + 23 goal)
+Info:    SimpleSetup: Path simplification took 0.016344 seconds and changed from 18 to 11 states
+Info:    Preparing for run 2 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1066 states (13 start + 1053 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015584 seconds and changed from 15 to 13 states
+Info:    Preparing for run 3 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 2417 states (21 start + 2396 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015551 seconds and changed from 18 to 13 states
+Info:    Preparing for run 4 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 667 states (8 start + 659 goal)
+Info:    SimpleSetup: Path simplification took 0.016667 seconds and changed from 18 to 13 states
+Info:    Preparing for run 5 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 3440 states (33 start + 3407 goal)
+Info:    SimpleSetup: Path simplification took 0.013818 seconds and changed from 21 to 14 states
+Info:    Preparing for run 6 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 257 states (6 start + 251 goal)
+Info:    SimpleSetup: Path simplification took 0.012277 seconds and changed from 23 to 13 states
+Info:    Preparing for run 7 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 16 states (7 start + 9 goal)
+Info:    SimpleSetup: Path simplification took 0.010802 seconds and changed from 10 to 10 states
+Info:    Preparing for run 8 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 365 states (8 start + 357 goal)
+Info:    SimpleSetup: Path simplification took 0.014587 seconds and changed from 19 to 11 states
+Info:    Preparing for run 9 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 680 states (13 start + 667 goal)
+Info:    SimpleSetup: Path simplification took 0.016731 seconds and changed from 19 to 9 states
+Info:    Preparing for run 10 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 183 states (5 start + 178 goal)
+Info:    SimpleSetup: Path simplification took 0.014937 seconds and changed from 13 to 11 states
+Info:    Preparing for run 11 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 690 states (10 start + 680 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.013913 seconds and changed from 18 to 13 states
+Info:    Preparing for run 12 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 90 states (4 start + 86 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.013376 seconds and changed from 14 to 8 states
+Info:    Preparing for run 13 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 600 states (13 start + 587 goal)
+Info:    SimpleSetup: Path simplification took 0.012290 seconds and changed from 20 to 10 states
+Info:    Preparing for run 14 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1089 states (7 start + 1082 goal)
+Info:    SimpleSetup: Path simplification took 0.011555 seconds and changed from 14 to 13 states
+Info:    Preparing for run 15 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1182 states (17 start + 1165 goal)
+Info:    SimpleSetup: Path simplification took 0.019918 seconds and changed from 21 to 14 states
+Info:    Preparing for run 16 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 263 states (9 start + 254 goal)
+Info:    SimpleSetup: Path simplification took 0.013837 seconds and changed from 21 to 10 states
+Info:    Preparing for run 17 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 49 states (18 start + 31 goal)
+Info:    SimpleSetup: Path simplification took 0.016703 seconds and changed from 14 to 11 states
+Info:    Preparing for run 18 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 341 states (8 start + 333 goal)
+Info:    SimpleSetup: Path simplification took 0.012746 seconds and changed from 15 to 12 states
+Info:    Preparing for run 19 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 504 states (14 start + 490 goal)
+Info:    SimpleSetup: Path simplification took 0.020627 seconds and changed from 22 to 14 states
+Info:    Preparing for run 20 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1636 states (20 start + 1616 goal)
+Info:    SimpleSetup: Path simplification took 0.016409 seconds and changed from 21 to 11 states
+Info:    Preparing for run 21 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 652 states (8 start + 644 goal)
+Info:    SimpleSetup: Path simplification took 0.015928 seconds and changed from 23 to 15 states
+Info:    Preparing for run 22 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 610 states (10 start + 600 goal)
+Info:    SimpleSetup: Path simplification took 0.015785 seconds and changed from 18 to 9 states
+Info:    Preparing for run 23 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 668 states (10 start + 658 goal)
+Info:    SimpleSetup: Path simplification took 0.017189 seconds and changed from 18 to 9 states
+Info:    Preparing for run 24 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 497 states (7 start + 490 goal)
+Info:    SimpleSetup: Path simplification took 0.014282 seconds and changed from 17 to 12 states
+Info:    Preparing for run 25 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 81 states (6 start + 75 goal)
+Info:    SimpleSetup: Path simplification took 0.018173 seconds and changed from 14 to 10 states
+Info:    Preparing for run 26 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 368 states (11 start + 357 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015420 seconds and changed from 21 to 8 states
+Info:    Preparing for run 27 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 892 states (14 start + 878 goal)
+Info:    SimpleSetup: Path simplification took 0.013131 seconds and changed from 18 to 14 states
+Info:    Preparing for run 28 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 2019 states (20 start + 1999 goal)
+Info:    SimpleSetup: Path simplification took 0.016856 seconds and changed from 22 to 17 states
+Info:    Preparing for run 29 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 711 states (14 start + 697 goal)
+Info:    SimpleSetup: Path simplification took 0.015934 seconds and changed from 19 to 10 states
+Info:    Preparing for run 30 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 555 states (544 start + 11 goal)
+Info:    SimpleSetup: Path simplification took 0.014281 seconds and changed from 18 to 15 states
+Info:    Preparing for run 31 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 78 states (12 start + 66 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017980 seconds and changed from 15 to 13 states
+Info:    Preparing for run 32 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1100 states (12 start + 1088 goal)
+Info:    SimpleSetup: Path simplification took 0.015470 seconds and changed from 14 to 9 states
+Info:    Preparing for run 33 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 324 states (12 start + 312 goal)
+Info:    SimpleSetup: Path simplification took 0.016034 seconds and changed from 17 to 10 states
+Info:    Preparing for run 34 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 789 states (15 start + 774 goal)
+Info:    SimpleSetup: Path simplification took 0.013208 seconds and changed from 20 to 11 states
+Info:    Preparing for run 35 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 86 states (6 start + 80 goal)
+Info:    SimpleSetup: Path simplification took 0.012942 seconds and changed from 15 to 11 states
+Info:    Preparing for run 36 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 151 states (9 start + 142 goal)
+Info:    SimpleSetup: Path simplification took 0.014536 seconds and changed from 18 to 11 states
+Info:    Preparing for run 37 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 666 states (15 start + 651 goal)
+Info:    SimpleSetup: Path simplification took 0.018334 seconds and changed from 19 to 10 states
+Info:    Preparing for run 38 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1190 states (16 start + 1174 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018177 seconds and changed from 18 to 10 states
+Info:    Preparing for run 39 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1497 states (15 start + 1482 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016875 seconds and changed from 23 to 13 states
+Info:    Preparing for run 40 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 370 states (10 start + 360 goal)
+Info:    SimpleSetup: Path simplification took 0.014390 seconds and changed from 20 to 13 states
+Info:    Preparing for run 41 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 324 states (7 start + 317 goal)
+Info:    SimpleSetup: Path simplification took 0.013305 seconds and changed from 17 to 14 states
+Info:    Preparing for run 42 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 359 states (7 start + 352 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.021451 seconds and changed from 26 to 12 states
+Info:    Preparing for run 43 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 660 states (9 start + 651 goal)
+Info:    SimpleSetup: Path simplification took 0.012766 seconds and changed from 17 to 12 states
+Info:    Preparing for run 44 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 32 states (6 start + 26 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.014190 seconds and changed from 14 to 11 states
+Info:    Preparing for run 45 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1289 states (22 start + 1267 goal)
+Info:    SimpleSetup: Path simplification took 0.015046 seconds and changed from 22 to 11 states
+Info:    Preparing for run 46 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 1147 states (12 start + 1135 goal)
+Info:    SimpleSetup: Path simplification took 0.019445 seconds and changed from 20 to 13 states
+Info:    Preparing for run 47 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 271 states (9 start + 262 goal)
+Info:    SimpleSetup: Path simplification took 0.014725 seconds and changed from 19 to 15 states
+Info:    Preparing for run 48 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 455 states (6 start + 449 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019622 seconds and changed from 23 to 12 states
+Info:    Preparing for run 49 of geometric_RRTConnect Range 1.
+Info:    RRTConnect Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 1.: Created 2004 states (13 start + 1991 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017287 seconds and changed from 23 to 14 states
+Info:    Preparing for run 0 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 112 states (57 start + 55 goal)
+Info:    SimpleSetup: Path simplification took 0.022308 seconds and changed from 61 to 14 states
+Info:    Preparing for run 1 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 170 states (94 start + 76 goal)
+Info:    SimpleSetup: Path simplification took 0.017528 seconds and changed from 60 to 13 states
+Info:    Preparing for run 2 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 119 states (57 start + 62 goal)
+Info:    SimpleSetup: Path simplification took 0.015330 seconds and changed from 59 to 14 states
+Info:    Preparing for run 3 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 132 states (96 start + 36 goal)
+Info:    SimpleSetup: Path simplification took 0.017834 seconds and changed from 58 to 20 states
+Info:    Preparing for run 4 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 113 states (63 start + 50 goal)
+Info:    SimpleSetup: Path simplification took 0.013588 seconds and changed from 54 to 17 states
+Info:    Preparing for run 5 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 98 states (58 start + 40 goal)
+Info:    SimpleSetup: Path simplification took 0.015024 seconds and changed from 63 to 16 states
+Info:    Preparing for run 6 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 118 states (80 start + 38 goal)
+Info:    SimpleSetup: Path simplification took 0.012015 seconds and changed from 55 to 15 states
+Info:    Preparing for run 7 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 80 states (30 start + 50 goal)
+Info:    SimpleSetup: Path simplification took 0.013365 seconds and changed from 52 to 12 states
+Info:    Preparing for run 8 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 153 states (100 start + 53 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018354 seconds and changed from 66 to 11 states
+Info:    Preparing for run 9 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 97 states (59 start + 38 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017406 seconds and changed from 53 to 19 states
+Info:    Preparing for run 10 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 79 states (30 start + 49 goal)
+Info:    SimpleSetup: Path simplification took 0.018000 seconds and changed from 55 to 15 states
+Info:    Preparing for run 11 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 126 states (94 start + 32 goal)
+Info:    SimpleSetup: Path simplification took 0.013959 seconds and changed from 65 to 15 states
+Info:    Preparing for run 12 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 115 states (82 start + 33 goal)
+Info:    SimpleSetup: Path simplification took 0.018736 seconds and changed from 70 to 14 states
+Info:    Preparing for run 13 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 151 states (88 start + 63 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019519 seconds and changed from 70 to 17 states
+Info:    Preparing for run 14 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 141 states (53 start + 88 goal)
+Info:    SimpleSetup: Path simplification took 0.018501 seconds and changed from 68 to 13 states
+Info:    Preparing for run 15 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 135 states (88 start + 47 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019307 seconds and changed from 55 to 15 states
+Info:    Preparing for run 16 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 93 states (53 start + 40 goal)
+Info:    SimpleSetup: Path simplification took 0.019478 seconds and changed from 70 to 14 states
+Info:    Preparing for run 17 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 135 states (67 start + 68 goal)
+Info:    SimpleSetup: Path simplification took 0.020145 seconds and changed from 61 to 12 states
+Info:    Preparing for run 18 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 174 states (135 start + 39 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019687 seconds and changed from 62 to 12 states
+Info:    Preparing for run 19 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 112 states (74 start + 38 goal)
+Info:    SimpleSetup: Path simplification took 0.014395 seconds and changed from 58 to 14 states
+Info:    Preparing for run 20 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 128 states (73 start + 55 goal)
+Info:    SimpleSetup: Path simplification took 0.016032 seconds and changed from 58 to 18 states
+Info:    Preparing for run 21 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 142 states (92 start + 50 goal)
+Warning: Solution path may slightly touch on an invalid region of the state space
+         at line 711 in /omplapp/ompl/src/ompl/geometric/src/PathSimplifier.cpp
+Info:    SimpleSetup: Path simplification took 0.021059 seconds and changed from 63 to 13 states
+Info:    Preparing for run 22 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 131 states (72 start + 59 goal)
+Info:    SimpleSetup: Path simplification took 0.017367 seconds and changed from 57 to 13 states
+Info:    Preparing for run 23 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 103 states (38 start + 65 goal)
+Info:    SimpleSetup: Path simplification took 0.015970 seconds and changed from 63 to 16 states
+Info:    Preparing for run 24 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 159 states (100 start + 59 goal)
+Info:    SimpleSetup: Path simplification took 0.014038 seconds and changed from 58 to 15 states
+Info:    Preparing for run 25 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 155 states (92 start + 63 goal)
+Info:    SimpleSetup: Path simplification took 0.014526 seconds and changed from 62 to 12 states
+Info:    Preparing for run 26 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 132 states (96 start + 36 goal)
+Info:    SimpleSetup: Path simplification took 0.017362 seconds and changed from 61 to 12 states
+Info:    Preparing for run 27 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 122 states (22 start + 100 goal)
+Info:    SimpleSetup: Path simplification took 0.016292 seconds and changed from 61 to 17 states
+Info:    Preparing for run 28 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 134 states (77 start + 57 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019368 seconds and changed from 67 to 14 states
+Info:    Preparing for run 29 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 93 states (43 start + 50 goal)
+Info:    SimpleSetup: Path simplification took 0.015621 seconds and changed from 61 to 15 states
+Info:    Preparing for run 30 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 99 states (47 start + 52 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.014342 seconds and changed from 55 to 14 states
+Info:    Preparing for run 31 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 207 states (149 start + 58 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019141 seconds and changed from 55 to 13 states
+Info:    Preparing for run 32 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 100 states (57 start + 43 goal)
+Info:    SimpleSetup: Path simplification took 0.013335 seconds and changed from 56 to 14 states
+Info:    Preparing for run 33 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 135 states (75 start + 60 goal)
+Info:    SimpleSetup: Path simplification took 0.014968 seconds and changed from 58 to 14 states
+Info:    Preparing for run 34 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 100 states (63 start + 37 goal)
+Info:    SimpleSetup: Path simplification took 0.018965 seconds and changed from 56 to 12 states
+Info:    Preparing for run 35 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 104 states (55 start + 49 goal)
+Info:    SimpleSetup: Path simplification took 0.015989 seconds and changed from 58 to 14 states
+Info:    Preparing for run 36 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 226 states (165 start + 61 goal)
+Info:    SimpleSetup: Path simplification took 0.015769 seconds and changed from 63 to 12 states
+Info:    Preparing for run 37 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 111 states (62 start + 49 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.020497 seconds and changed from 63 to 12 states
+Info:    Preparing for run 38 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 125 states (77 start + 48 goal)
+Info:    SimpleSetup: Path simplification took 0.015088 seconds and changed from 56 to 11 states
+Info:    Preparing for run 39 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 110 states (67 start + 43 goal)
+Info:    SimpleSetup: Path simplification took 0.014343 seconds and changed from 59 to 13 states
+Info:    Preparing for run 40 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 260 states (20 start + 240 goal)
+Info:    SimpleSetup: Path simplification took 0.021752 seconds and changed from 68 to 12 states
+Info:    Preparing for run 41 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 178 states (83 start + 95 goal)
+Info:    SimpleSetup: Path simplification took 0.012025 seconds and changed from 64 to 12 states
+Info:    Preparing for run 42 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 280 states (14 start + 266 goal)
+Info:    SimpleSetup: Path simplification took 0.016542 seconds and changed from 64 to 14 states
+Info:    Preparing for run 43 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 86 states (34 start + 52 goal)
+Info:    SimpleSetup: Path simplification took 0.015738 seconds and changed from 55 to 16 states
+Info:    Preparing for run 44 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 98 states (58 start + 40 goal)
+Info:    SimpleSetup: Path simplification took 0.016421 seconds and changed from 58 to 15 states
+Info:    Preparing for run 45 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 127 states (82 start + 45 goal)
+Info:    SimpleSetup: Path simplification took 0.017790 seconds and changed from 62 to 14 states
+Info:    Preparing for run 46 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 130 states (64 start + 66 goal)
+Info:    SimpleSetup: Path simplification took 0.020583 seconds and changed from 69 to 11 states
+Info:    Preparing for run 47 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 163 states (128 start + 35 goal)
+Info:    SimpleSetup: Path simplification took 0.017492 seconds and changed from 63 to 9 states
+Info:    Preparing for run 48 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 236 states (21 start + 215 goal)
+Info:    SimpleSetup: Path simplification took 0.015743 seconds and changed from 57 to 13 states
+Info:    Preparing for run 49 of geometric_RRTConnect Range 0.1.
+Info:    RRTConnect Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRTConnect Range 0.1.: Created 144 states (88 start + 56 goal)
+Info:    SimpleSetup: Path simplification took 0.016122 seconds and changed from 67 to 8 states
+Info:    Preparing for run 0 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 187 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019173 seconds and changed from 15 to 12 states
+Info:    Preparing for run 1 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 119 states
+Info:    SimpleSetup: Path simplification took 0.012926 seconds and changed from 17 to 10 states
+Info:    Preparing for run 2 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 153 states
+Info:    SimpleSetup: Path simplification took 0.013893 seconds and changed from 17 to 12 states
+Info:    Preparing for run 3 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 3447 states
+Info:    SimpleSetup: Path simplification took 0.013941 seconds and changed from 23 to 11 states
+Info:    Preparing for run 4 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 228 states
+Info:    SimpleSetup: Path simplification took 0.013806 seconds and changed from 15 to 11 states
+Info:    Preparing for run 5 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 109 states
+Info:    SimpleSetup: Path simplification took 0.015816 seconds and changed from 13 to 12 states
+Info:    Preparing for run 6 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 1216 states
+Info:    SimpleSetup: Path simplification took 0.012692 seconds and changed from 22 to 12 states
+Info:    Preparing for run 7 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 246 states
+Info:    SimpleSetup: Path simplification took 0.017417 seconds and changed from 20 to 14 states
+Info:    Preparing for run 8 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 896 states
+Info:    SimpleSetup: Path simplification took 0.017049 seconds and changed from 18 to 10 states
+Info:    Preparing for run 9 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 271 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018439 seconds and changed from 17 to 11 states
+Info:    Preparing for run 10 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 123 states
+Info:    SimpleSetup: Path simplification took 0.012909 seconds and changed from 18 to 9 states
+Info:    Preparing for run 11 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 318 states
+Info:    SimpleSetup: Path simplification took 0.014629 seconds and changed from 19 to 12 states
+Info:    Preparing for run 12 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 57 states
+Info:    SimpleSetup: Path simplification took 0.014687 seconds and changed from 11 to 11 states
+Info:    Preparing for run 13 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 771 states
+Info:    SimpleSetup: Path simplification took 0.013642 seconds and changed from 21 to 11 states
+Info:    Preparing for run 14 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 555 states
+Info:    SimpleSetup: Path simplification took 0.018420 seconds and changed from 28 to 9 states
+Info:    Preparing for run 15 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 195 states
+Info:    SimpleSetup: Path simplification took 0.012758 seconds and changed from 23 to 12 states
+Info:    Preparing for run 16 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 489 states
+Info:    SimpleSetup: Path simplification took 0.018071 seconds and changed from 20 to 13 states
+Info:    Preparing for run 17 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 630 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.013691 seconds and changed from 14 to 10 states
+Info:    Preparing for run 18 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 2122 states
+Info:    SimpleSetup: Path simplification took 0.014488 seconds and changed from 22 to 12 states
+Info:    Preparing for run 19 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 848 states
+Info:    SimpleSetup: Path simplification took 0.013578 seconds and changed from 22 to 12 states
+Info:    Preparing for run 20 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 192 states
+Info:    SimpleSetup: Path simplification took 0.013250 seconds and changed from 23 to 11 states
+Info:    Preparing for run 21 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 203 states
+Info:    SimpleSetup: Path simplification took 0.013043 seconds and changed from 18 to 15 states
+Info:    Preparing for run 22 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 2246 states
+Info:    SimpleSetup: Path simplification took 0.016147 seconds and changed from 23 to 11 states
+Info:    Preparing for run 23 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 78 states
+Info:    SimpleSetup: Path simplification took 0.015530 seconds and changed from 12 to 11 states
+Info:    Preparing for run 24 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 125 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015435 seconds and changed from 15 to 14 states
+Info:    Preparing for run 25 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 232 states
+Info:    SimpleSetup: Path simplification took 0.015949 seconds and changed from 22 to 12 states
+Info:    Preparing for run 26 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 245 states
+Info:    SimpleSetup: Path simplification took 0.014445 seconds and changed from 17 to 10 states
+Info:    Preparing for run 27 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 2126 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019613 seconds and changed from 21 to 11 states
+Info:    Preparing for run 28 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 397 states
+Info:    SimpleSetup: Path simplification took 0.016148 seconds and changed from 26 to 12 states
+Info:    Preparing for run 29 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 776 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015417 seconds and changed from 22 to 14 states
+Info:    Preparing for run 30 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 1158 states
+Info:    SimpleSetup: Path simplification took 0.017017 seconds and changed from 19 to 12 states
+Info:    Preparing for run 31 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 139 states
+Info:    SimpleSetup: Path simplification took 0.020400 seconds and changed from 12 to 12 states
+Info:    Preparing for run 32 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 217 states
+Info:    SimpleSetup: Path simplification took 0.017184 seconds and changed from 19 to 10 states
+Info:    Preparing for run 33 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 2705 states
+Info:    SimpleSetup: Path simplification took 0.016200 seconds and changed from 31 to 12 states
+Info:    Preparing for run 34 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 1088 states
+Info:    SimpleSetup: Path simplification took 0.015901 seconds and changed from 25 to 12 states
+Info:    Preparing for run 35 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 1904 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017907 seconds and changed from 20 to 12 states
+Info:    Preparing for run 36 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 339 states
+Info:    SimpleSetup: Path simplification took 0.013742 seconds and changed from 17 to 14 states
+Info:    Preparing for run 37 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 504 states
+Info:    SimpleSetup: Path simplification took 0.013368 seconds and changed from 22 to 16 states
+Info:    Preparing for run 38 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 299 states
+Info:    SimpleSetup: Path simplification took 0.017217 seconds and changed from 25 to 13 states
+Info:    Preparing for run 39 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 981 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017052 seconds and changed from 21 to 9 states
+Info:    Preparing for run 40 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 404 states
+Info:    SimpleSetup: Path simplification took 0.018085 seconds and changed from 22 to 16 states
+Info:    Preparing for run 41 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 292 states
+Info:    SimpleSetup: Path simplification took 0.017808 seconds and changed from 14 to 8 states
+Info:    Preparing for run 42 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 1447 states
+Info:    SimpleSetup: Path simplification took 0.017542 seconds and changed from 25 to 11 states
+Info:    Preparing for run 43 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 1104 states
+Info:    SimpleSetup: Path simplification took 0.015458 seconds and changed from 25 to 9 states
+Info:    Preparing for run 44 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 1256 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.020274 seconds and changed from 23 to 11 states
+Info:    Preparing for run 45 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 54 states
+Info:    SimpleSetup: Path simplification took 0.012710 seconds and changed from 11 to 12 states
+Info:    Preparing for run 46 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 394 states
+Info:    SimpleSetup: Path simplification took 0.016265 seconds and changed from 17 to 12 states
+Info:    Preparing for run 47 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 399 states
+Info:    SimpleSetup: Path simplification took 0.015203 seconds and changed from 19 to 12 states
+Info:    Preparing for run 48 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 218 states
+Info:    SimpleSetup: Path simplification took 0.014262 seconds and changed from 16 to 10 states
+Info:    Preparing for run 49 of geometric_RRT Range 5.
+Info:    RRT Range 5.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 5.: Created 271 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017765 seconds and changed from 19 to 14 states
+Info:    Preparing for run 0 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1478 states (9 start + 1469 goal)
+Info:    SimpleSetup: Path simplification took 0.018693 seconds and changed from 25 to 12 states
+Info:    Preparing for run 1 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 252 states (10 start + 242 goal)
+Info:    SimpleSetup: Path simplification took 0.011946 seconds and changed from 17 to 13 states
+Info:    Preparing for run 2 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 751 states (8 start + 743 goal)
+Info:    SimpleSetup: Path simplification took 0.016511 seconds and changed from 19 to 14 states
+Info:    Preparing for run 3 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 128 states (4 start + 124 goal)
+Info:    SimpleSetup: Path simplification took 0.014087 seconds and changed from 15 to 12 states
+Info:    Preparing for run 4 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1506 states (17 start + 1489 goal)
+Info:    SimpleSetup: Path simplification took 0.013719 seconds and changed from 17 to 11 states
+Info:    Preparing for run 5 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1825 states (17 start + 1808 goal)
+Info:    SimpleSetup: Path simplification took 0.016496 seconds and changed from 19 to 12 states
+Info:    Preparing for run 6 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 399 states (8 start + 391 goal)
+Info:    SimpleSetup: Path simplification took 0.015731 seconds and changed from 14 to 9 states
+Info:    Preparing for run 7 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 609 states (8 start + 601 goal)
+Info:    SimpleSetup: Path simplification took 0.015244 seconds and changed from 16 to 11 states
+Info:    Preparing for run 8 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 69 states (4 start + 65 goal)
+Info:    SimpleSetup: Path simplification took 0.014459 seconds and changed from 12 to 11 states
+Info:    Preparing for run 9 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 488 states (20 start + 468 goal)
+Info:    SimpleSetup: Path simplification took 0.016126 seconds and changed from 27 to 9 states
+Info:    Preparing for run 10 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 2573 states (22 start + 2551 goal)
+Info:    SimpleSetup: Path simplification took 0.014743 seconds and changed from 23 to 9 states
+Info:    Preparing for run 11 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1416 states (19 start + 1397 goal)
+Info:    SimpleSetup: Path simplification took 0.016205 seconds and changed from 18 to 13 states
+Info:    Preparing for run 12 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 644 states (5 start + 639 goal)
+Info:    SimpleSetup: Path simplification took 0.013053 seconds and changed from 20 to 12 states
+Info:    Preparing for run 13 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 356 states (8 start + 348 goal)
+Info:    SimpleSetup: Path simplification took 0.014335 seconds and changed from 19 to 12 states
+Info:    Preparing for run 14 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 74 states (6 start + 68 goal)
+Info:    SimpleSetup: Path simplification took 0.014398 seconds and changed from 19 to 9 states
+Info:    Preparing for run 15 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 383 states (15 start + 368 goal)
+Info:    SimpleSetup: Path simplification took 0.012163 seconds and changed from 15 to 12 states
+Info:    Preparing for run 16 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1792 states (17 start + 1775 goal)
+Info:    SimpleSetup: Path simplification took 0.014263 seconds and changed from 18 to 10 states
+Info:    Preparing for run 17 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 2084 states (19 start + 2065 goal)
+Info:    SimpleSetup: Path simplification took 0.015532 seconds and changed from 24 to 9 states
+Info:    Preparing for run 18 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 97 states (74 start + 23 goal)
+Info:    SimpleSetup: Path simplification took 0.012104 seconds and changed from 16 to 14 states
+Info:    Preparing for run 19 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 109 states (6 start + 103 goal)
+Info:    SimpleSetup: Path simplification took 0.016099 seconds and changed from 15 to 10 states
+Info:    Preparing for run 20 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 894 states (10 start + 884 goal)
+Info:    SimpleSetup: Path simplification took 0.017007 seconds and changed from 19 to 14 states
+Info:    Preparing for run 21 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 307 states (10 start + 297 goal)
+Info:    SimpleSetup: Path simplification took 0.012363 seconds and changed from 19 to 11 states
+Info:    Preparing for run 22 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 568 states (9 start + 559 goal)
+Info:    SimpleSetup: Path simplification took 0.015047 seconds and changed from 23 to 11 states
+Info:    Preparing for run 23 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 619 states (10 start + 609 goal)
+Info:    SimpleSetup: Path simplification took 0.017011 seconds and changed from 24 to 11 states
+Info:    Preparing for run 24 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 3159 states (34 start + 3125 goal)
+Info:    SimpleSetup: Path simplification took 0.018172 seconds and changed from 19 to 13 states
+Info:    Preparing for run 25 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 95 states (3 start + 92 goal)
+Info:    SimpleSetup: Path simplification took 0.016428 seconds and changed from 11 to 10 states
+Info:    Preparing for run 26 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1087 states (13 start + 1074 goal)
+Info:    SimpleSetup: Path simplification took 0.014668 seconds and changed from 13 to 11 states
+Info:    Preparing for run 27 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 125 states (7 start + 118 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018148 seconds and changed from 26 to 13 states
+Info:    Preparing for run 28 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1668 states (21 start + 1647 goal)
+Info:    SimpleSetup: Path simplification took 0.015736 seconds and changed from 26 to 12 states
+Info:    Preparing for run 29 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 991 states (16 start + 975 goal)
+Info:    SimpleSetup: Path simplification took 0.016181 seconds and changed from 21 to 12 states
+Info:    Preparing for run 30 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 785 states (11 start + 774 goal)
+Info:    SimpleSetup: Path simplification took 0.011356 seconds and changed from 15 to 12 states
+Info:    Preparing for run 31 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 766 states (29 start + 737 goal)
+Info:    SimpleSetup: Path simplification took 0.013152 seconds and changed from 21 to 13 states
+Info:    Preparing for run 32 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 405 states (6 start + 399 goal)
+Info:    SimpleSetup: Path simplification took 0.019439 seconds and changed from 21 to 13 states
+Info:    Preparing for run 33 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 393 states (4 start + 389 goal)
+Info:    SimpleSetup: Path simplification took 0.014375 seconds and changed from 17 to 13 states
+Info:    Preparing for run 34 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 436 states (16 start + 420 goal)
+Info:    SimpleSetup: Path simplification took 0.014892 seconds and changed from 19 to 11 states
+Info:    Preparing for run 35 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 349 states (3 start + 346 goal)
+Info:    SimpleSetup: Path simplification took 0.013595 seconds and changed from 14 to 11 states
+Info:    Preparing for run 36 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 124 states (3 start + 121 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015025 seconds and changed from 16 to 11 states
+Info:    Preparing for run 37 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 777 states (11 start + 766 goal)
+Info:    SimpleSetup: Path simplification took 0.019576 seconds and changed from 15 to 12 states
+Info:    Preparing for run 38 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 901 states (12 start + 889 goal)
+Info:    SimpleSetup: Path simplification took 0.017116 seconds and changed from 22 to 13 states
+Info:    Preparing for run 39 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 123 states (8 start + 115 goal)
+Info:    SimpleSetup: Path simplification took 0.014898 seconds and changed from 17 to 11 states
+Info:    Preparing for run 40 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1222 states (13 start + 1209 goal)
+Info:    SimpleSetup: Path simplification took 0.012176 seconds and changed from 18 to 10 states
+Info:    Preparing for run 41 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 265 states (10 start + 255 goal)
+Info:    SimpleSetup: Path simplification took 0.015792 seconds and changed from 20 to 13 states
+Info:    Preparing for run 42 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 150 states (5 start + 145 goal)
+Info:    SimpleSetup: Path simplification took 0.012210 seconds and changed from 13 to 10 states
+Info:    Preparing for run 43 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 556 states (6 start + 550 goal)
+Info:    SimpleSetup: Path simplification took 0.018385 seconds and changed from 16 to 11 states
+Info:    Preparing for run 44 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 602 states (14 start + 588 goal)
+Info:    SimpleSetup: Path simplification took 0.019687 seconds and changed from 16 to 14 states
+Info:    Preparing for run 45 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 201 states (8 start + 193 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016600 seconds and changed from 16 to 14 states
+Info:    Preparing for run 46 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 1116 states (15 start + 1101 goal)
+Info:    SimpleSetup: Path simplification took 0.015113 seconds and changed from 22 to 12 states
+Info:    Preparing for run 47 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 416 states (6 start + 410 goal)
+Info:    SimpleSetup: Path simplification took 0.016804 seconds and changed from 16 to 10 states
+Info:    Preparing for run 48 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 413 states (8 start + 405 goal)
+Info:    SimpleSetup: Path simplification took 0.016578 seconds and changed from 20 to 9 states
+Info:    Preparing for run 49 of geometric_RRT Range 1.
+Info:    RRT Range 1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 1.: Created 449 states (5 start + 444 goal)
+Info:    SimpleSetup: Path simplification took 0.012837 seconds and changed from 15 to 13 states
+Info:    Preparing for run 0 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 805 states
+Info:    SimpleSetup: Path simplification took 0.017001 seconds and changed from 63 to 14 states
+Info:    Preparing for run 1 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 449 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017880 seconds and changed from 59 to 14 states
+Info:    Preparing for run 2 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 392 states
+Info:    SimpleSetup: Path simplification took 0.021729 seconds and changed from 61 to 15 states
+Info:    Preparing for run 3 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 647 states
+Info:    SimpleSetup: Path simplification took 0.015743 seconds and changed from 64 to 13 states
+Info:    Preparing for run 4 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 487 states
+Info:    SimpleSetup: Path simplification took 0.014927 seconds and changed from 59 to 18 states
+Info:    Preparing for run 5 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 403 states
+Info:    SimpleSetup: Path simplification took 0.012151 seconds and changed from 58 to 9 states
+Info:    Preparing for run 6 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 482 states
+Info:    SimpleSetup: Path simplification took 0.015455 seconds and changed from 60 to 12 states
+Info:    Preparing for run 7 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 1553 states
+Info:    SimpleSetup: Path simplification took 0.014994 seconds and changed from 62 to 12 states
+Info:    Preparing for run 8 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 720 states
+Info:    SimpleSetup: Path simplification took 0.019121 seconds and changed from 74 to 14 states
+Info:    Preparing for run 9 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 493 states
+Info:    SimpleSetup: Path simplification took 0.018608 seconds and changed from 62 to 12 states
+Info:    Preparing for run 10 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 468 states
+Info:    SimpleSetup: Path simplification took 0.019590 seconds and changed from 60 to 16 states
+Info:    Preparing for run 11 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 286 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.020136 seconds and changed from 60 to 15 states
+Info:    Preparing for run 12 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 355 states
+Info:    SimpleSetup: Path simplification took 0.016929 seconds and changed from 68 to 13 states
+Info:    Preparing for run 13 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 478 states
+Info:    SimpleSetup: Path simplification took 0.016160 seconds and changed from 60 to 15 states
+Info:    Preparing for run 14 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 747 states
+Info:    SimpleSetup: Path simplification took 0.014350 seconds and changed from 61 to 13 states
+Info:    Preparing for run 15 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 248 states
+Info:    SimpleSetup: Path simplification took 0.021213 seconds and changed from 67 to 16 states
+Info:    Preparing for run 16 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 466 states
+Info:    SimpleSetup: Path simplification took 0.017238 seconds and changed from 62 to 15 states
+Info:    Preparing for run 17 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 356 states
+Info:    SimpleSetup: Path simplification took 0.017577 seconds and changed from 62 to 15 states
+Info:    Preparing for run 18 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 719 states
+Info:    SimpleSetup: Path simplification took 0.013715 seconds and changed from 59 to 14 states
+Info:    Preparing for run 19 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 764 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019060 seconds and changed from 66 to 15 states
+Info:    Preparing for run 20 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 470 states
+Info:    SimpleSetup: Path simplification took 0.020377 seconds and changed from 66 to 17 states
+Info:    Preparing for run 21 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 479 states
+Info:    SimpleSetup: Path simplification took 0.017791 seconds and changed from 59 to 14 states
+Info:    Preparing for run 22 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 583 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018427 seconds and changed from 58 to 13 states
+Info:    Preparing for run 23 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 389 states
+Info:    SimpleSetup: Path simplification took 0.020094 seconds and changed from 54 to 13 states
+Info:    Preparing for run 24 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 460 states
+Info:    SimpleSetup: Path simplification took 0.015667 seconds and changed from 58 to 14 states
+Info:    Preparing for run 25 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 387 states
+Info:    SimpleSetup: Path simplification took 0.015457 seconds and changed from 56 to 15 states
+Info:    Preparing for run 26 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 411 states
+Info:    SimpleSetup: Path simplification took 0.015838 seconds and changed from 55 to 13 states
+Info:    Preparing for run 27 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 399 states
+Info:    SimpleSetup: Path simplification took 0.015887 seconds and changed from 61 to 17 states
+Info:    Preparing for run 28 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 309 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.020382 seconds and changed from 66 to 14 states
+Info:    Preparing for run 29 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 686 states
+Info:    SimpleSetup: Path simplification took 0.016198 seconds and changed from 63 to 12 states
+Info:    Preparing for run 30 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 375 states
+Info:    SimpleSetup: Path simplification took 0.021954 seconds and changed from 62 to 14 states
+Info:    Preparing for run 31 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 688 states
+Info:    SimpleSetup: Path simplification took 0.016355 seconds and changed from 54 to 14 states
+Info:    Preparing for run 32 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 216 states
+Info:    SimpleSetup: Path simplification took 0.016630 seconds and changed from 60 to 13 states
+Info:    Preparing for run 33 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 630 states
+Info:    SimpleSetup: Path simplification took 0.017512 seconds and changed from 63 to 15 states
+Info:    Preparing for run 34 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 1310 states
+Info:    SimpleSetup: Path simplification took 0.017223 seconds and changed from 64 to 10 states
+Info:    Preparing for run 35 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 2068 states
+Info:    SimpleSetup: Path simplification took 0.016046 seconds and changed from 72 to 14 states
+Info:    Preparing for run 36 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 415 states
+Info:    SimpleSetup: Path simplification took 0.014861 seconds and changed from 56 to 15 states
+Info:    Preparing for run 37 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 562 states
+Info:    SimpleSetup: Path simplification took 0.019128 seconds and changed from 54 to 18 states
+Info:    Preparing for run 38 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 325 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.019243 seconds and changed from 56 to 13 states
+Info:    Preparing for run 39 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 1081 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018595 seconds and changed from 60 to 15 states
+Info:    Preparing for run 40 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 341 states
+Info:    SimpleSetup: Path simplification took 0.019639 seconds and changed from 68 to 10 states
+Info:    Preparing for run 41 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 235 states
+Info:    SimpleSetup: Path simplification took 0.015888 seconds and changed from 53 to 14 states
+Info:    Preparing for run 42 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 366 states
+Info:    SimpleSetup: Path simplification took 0.012974 seconds and changed from 58 to 13 states
+Info:    Preparing for run 43 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 1970 states
+Info:    SimpleSetup: Path simplification took 0.019609 seconds and changed from 61 to 14 states
+Info:    Preparing for run 44 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 660 states
+Info:    SimpleSetup: Path simplification took 0.013947 seconds and changed from 63 to 15 states
+Info:    Preparing for run 45 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 325 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.023063 seconds and changed from 65 to 13 states
+Info:    Preparing for run 46 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 346 states
+Info:    SimpleSetup: Path simplification took 0.014119 seconds and changed from 59 to 14 states
+Info:    Preparing for run 47 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 504 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018490 seconds and changed from 62 to 12 states
+Info:    Preparing for run 48 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 638 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018573 seconds and changed from 61 to 13 states
+Info:    Preparing for run 49 of geometric_RRT Range 0.1.
+Info:    RRT Range 0.1.: Starting planning with 1 states already in datastructure
+Info:    RRT Range 0.1.: Created 290 states
+Info:    SimpleSetup: Path simplification took 0.016486 seconds and changed from 61 to 12 states
+Info:    Preparing for run 0 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 15420 states in 832 cells (563 internal + 269 external)
+Info:    SimpleSetup: Path simplification took 0.023492 seconds and changed from 74 to 20 states
+Info:    Preparing for run 1 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 18664 states in 833 cells (559 internal + 274 external)
+Info:    SimpleSetup: Path simplification took 0.016480 seconds and changed from 54 to 13 states
+Info:    Preparing for run 2 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 25354 states in 855 cells (568 internal + 287 external)
+Info:    SimpleSetup: Path simplification took 0.017893 seconds and changed from 43 to 9 states
+Info:    Preparing for run 3 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1620 states in 588 cells (175 internal + 413 external)
+Info:    SimpleSetup: Path simplification took 0.017952 seconds and changed from 43 to 10 states
+Info:    Preparing for run 4 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 283 states in 187 cells (4 internal + 183 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015154 seconds and changed from 27 to 12 states
+Info:    Preparing for run 5 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 620 states in 334 cells (46 internal + 288 external)
+Info:    SimpleSetup: Path simplification took 0.015595 seconds and changed from 34 to 10 states
+Info:    Preparing for run 6 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1070 states in 508 cells (98 internal + 410 external)
+Info:    SimpleSetup: Path simplification took 0.015955 seconds and changed from 31 to 14 states
+Info:    Preparing for run 7 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 7160 states in 813 cells (524 internal + 289 external)
+Info:    SimpleSetup: Path simplification took 0.014929 seconds and changed from 37 to 13 states
+Info:    Preparing for run 8 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1127 states in 529 cells (114 internal + 415 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018709 seconds and changed from 49 to 13 states
+Info:    Preparing for run 9 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 263 states in 151 cells (9 internal + 142 external)
+Info:    SimpleSetup: Path simplification took 0.015750 seconds and changed from 38 to 13 states
+Info:    Preparing for run 10 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 27323 states in 856 cells (566 internal + 290 external)
+Info:    SimpleSetup: Path simplification took 0.017644 seconds and changed from 57 to 14 states
+Info:    Preparing for run 11 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1676 states in 600 cells (194 internal + 406 external)
+Info:    SimpleSetup: Path simplification took 0.018508 seconds and changed from 65 to 11 states
+Info:    Preparing for run 12 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 630 states in 340 cells (28 internal + 312 external)
+Info:    SimpleSetup: Path simplification took 0.019788 seconds and changed from 62 to 16 states
+Info:    Preparing for run 13 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 821 states in 400 cells (50 internal + 350 external)
+Info:    SimpleSetup: Path simplification took 0.017143 seconds and changed from 52 to 12 states
+Info:    Preparing for run 14 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 18938 states in 833 cells (562 internal + 271 external)
+Info:    SimpleSetup: Path simplification took 0.017532 seconds and changed from 49 to 10 states
+Info:    Preparing for run 15 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 852 states in 403 cells (62 internal + 341 external)
+Info:    SimpleSetup: Path simplification took 0.019180 seconds and changed from 66 to 13 states
+Info:    Preparing for run 16 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 887 states in 405 cells (74 internal + 331 external)
+Info:    SimpleSetup: Path simplification took 0.014520 seconds and changed from 64 to 11 states
+Info:    Preparing for run 17 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 599 states in 283 cells (30 internal + 253 external)
+Info:    SimpleSetup: Path simplification took 0.015214 seconds and changed from 51 to 13 states
+Info:    Preparing for run 18 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1985 states in 646 cells (251 internal + 395 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018292 seconds and changed from 45 to 11 states
+Info:    Preparing for run 19 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 2011 states in 648 cells (237 internal + 411 external)
+Info:    SimpleSetup: Path simplification took 0.015674 seconds and changed from 39 to 10 states
+Info:    Preparing for run 20 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1408 states in 523 cells (204 internal + 319 external)
+Info:    SimpleSetup: Path simplification took 0.017888 seconds and changed from 63 to 13 states
+Info:    Preparing for run 21 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1004 states in 455 cells (100 internal + 355 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016077 seconds and changed from 72 to 11 states
+Info:    Preparing for run 22 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 15723 states in 821 cells (551 internal + 270 external)
+Info:    SimpleSetup: Path simplification took 0.015023 seconds and changed from 51 to 11 states
+Info:    Preparing for run 23 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 960 states in 457 cells (39 internal + 418 external)
+Info:    SimpleSetup: Path simplification took 0.014859 seconds and changed from 48 to 15 states
+Info:    Preparing for run 24 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 6690 states in 804 cells (521 internal + 283 external)
+Info:    SimpleSetup: Path simplification took 0.018031 seconds and changed from 27 to 11 states
+Info:    Preparing for run 25 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 451 states in 249 cells (13 internal + 236 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.021021 seconds and changed from 46 to 10 states
+Info:    Preparing for run 26 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 43961 states in 856 cells (568 internal + 288 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.020007 seconds and changed from 68 to 13 states
+Info:    Preparing for run 27 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 11280 states in 829 cells (546 internal + 283 external)
+Info:    SimpleSetup: Path simplification took 0.022301 seconds and changed from 40 to 8 states
+Info:    Preparing for run 28 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 433 states in 275 cells (18 internal + 257 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.020318 seconds and changed from 55 to 15 states
+Info:    Preparing for run 29 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 770 states in 335 cells (58 internal + 277 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.018658 seconds and changed from 44 to 11 states
+Info:    Preparing for run 30 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1381 states in 539 cells (123 internal + 416 external)
+Info:    SimpleSetup: Path simplification took 0.019337 seconds and changed from 64 to 13 states
+Info:    Preparing for run 31 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 37372 states in 857 cells (572 internal + 285 external)
+Info:    SimpleSetup: Path simplification took 0.017696 seconds and changed from 38 to 10 states
+Info:    Preparing for run 32 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 4013 states in 745 cells (380 internal + 365 external)
+Info:    SimpleSetup: Path simplification took 0.019889 seconds and changed from 52 to 10 states
+Info:    Preparing for run 33 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 855 states in 399 cells (62 internal + 337 external)
+Info:    SimpleSetup: Path simplification took 0.017621 seconds and changed from 60 to 14 states
+Info:    Preparing for run 34 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 705 states in 390 cells (40 internal + 350 external)
+Info:    SimpleSetup: Path simplification took 0.015890 seconds and changed from 43 to 13 states
+Info:    Preparing for run 35 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 437 states in 228 cells (8 internal + 220 external)
+Info:    SimpleSetup: Path simplification took 0.017166 seconds and changed from 46 to 14 states
+Info:    Preparing for run 36 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 682 states in 311 cells (53 internal + 258 external)
+Info:    SimpleSetup: Path simplification took 0.019893 seconds and changed from 33 to 10 states
+Info:    Preparing for run 37 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 657 states in 350 cells (28 internal + 322 external)
+Info:    SimpleSetup: Path simplification took 0.016277 seconds and changed from 59 to 11 states
+Info:    Preparing for run 38 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 9814 states in 821 cells (549 internal + 272 external)
+Info:    SimpleSetup: Path simplification took 0.014140 seconds and changed from 35 to 12 states
+Info:    Preparing for run 39 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 690 states in 381 cells (32 internal + 349 external)
+Info:    SimpleSetup: Path simplification took 0.016266 seconds and changed from 73 to 13 states
+Info:    Preparing for run 40 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 10493 states in 831 cells (552 internal + 279 external)
+Info:    SimpleSetup: Path simplification took 0.021860 seconds and changed from 49 to 9 states
+Info:    Preparing for run 41 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 27802 states in 849 cells (566 internal + 283 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.022367 seconds and changed from 69 to 13 states
+Info:    Preparing for run 42 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 15042 states in 831 cells (555 internal + 276 external)
+Info:    SimpleSetup: Path simplification took 0.013717 seconds and changed from 47 to 12 states
+Info:    Preparing for run 43 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 562 states in 304 cells (14 internal + 290 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017205 seconds and changed from 42 to 14 states
+Info:    Preparing for run 44 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 10524 states in 820 cells (542 internal + 278 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016935 seconds and changed from 44 to 11 states
+Info:    Preparing for run 45 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1573 states in 485 cells (144 internal + 341 external)
+Info:    SimpleSetup: Path simplification took 0.015948 seconds and changed from 44 to 13 states
+Info:    Preparing for run 46 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 1297 states in 517 cells (108 internal + 409 external)
+Info:    SimpleSetup: Path simplification took 0.019642 seconds and changed from 72 to 11 states
+Info:    Preparing for run 47 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 217 states in 124 cells (4 internal + 120 external)
+Info:    SimpleSetup: Path simplification took 0.013909 seconds and changed from 26 to 11 states
+Info:    Preparing for run 48 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 6931 states in 810 cells (531 internal + 279 external)
+Info:    SimpleSetup: Path simplification took 0.016221 seconds and changed from 44 to 13 states
+Info:    Preparing for run 49 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 728 states in 349 cells (47 internal + 302 external)
+Info:    SimpleSetup: Path simplification took 0.016949 seconds and changed from 38 to 13 states
+Info:    Preparing for run 0 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 2319 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.014305 seconds and changed from 19 to 14 states
+Info:    Preparing for run 1 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 3029 states
+Info:    SimpleSetup: Path simplification took 0.013532 seconds and changed from 23 to 15 states
+Info:    Preparing for run 2 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1090 states
+Info:    SimpleSetup: Path simplification took 0.008572 seconds and changed from 13 to 13 states
+Info:    Preparing for run 3 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1785 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.015137 seconds and changed from 21 to 9 states
+Info:    Preparing for run 4 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 301 states
+Info:    SimpleSetup: Path simplification took 0.015038 seconds and changed from 14 to 18 states
+Info:    Preparing for run 5 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 243 states
+Info:    SimpleSetup: Path simplification took 0.014332 seconds and changed from 15 to 12 states
+Info:    Preparing for run 6 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 830 states
+Info:    SimpleSetup: Path simplification took 0.012974 seconds and changed from 21 to 10 states
+Info:    Preparing for run 7 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 634 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.014634 seconds and changed from 19 to 13 states
+Info:    Preparing for run 8 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1186 states
+Info:    SimpleSetup: Path simplification took 0.011497 seconds and changed from 17 to 15 states
+Info:    Preparing for run 9 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 772 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.012853 seconds and changed from 16 to 14 states
+Info:    Preparing for run 10 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 2024 states
+Info:    SimpleSetup: Path simplification took 0.016824 seconds and changed from 28 to 16 states
+Info:    Preparing for run 11 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1630 states
+Info:    SimpleSetup: Path simplification took 0.010990 seconds and changed from 15 to 19 states
+Info:    Preparing for run 12 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 426 states
+Info:    SimpleSetup: Path simplification took 0.012053 seconds and changed from 18 to 11 states
+Info:    Preparing for run 13 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 2047 states
+Info:    SimpleSetup: Path simplification took 0.007781 seconds and changed from 20 to 15 states
+Info:    Preparing for run 14 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 4693 states
+Info:    SimpleSetup: Path simplification took 0.013412 seconds and changed from 29 to 17 states
+Info:    Preparing for run 15 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 268 states
+Info:    SimpleSetup: Path simplification took 0.013973 seconds and changed from 15 to 11 states
+Info:    Preparing for run 16 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 2344 states
+Info:    SimpleSetup: Path simplification took 0.010806 seconds and changed from 18 to 14 states
+Info:    Preparing for run 17 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 443 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.012662 seconds and changed from 17 to 12 states
+Info:    Preparing for run 18 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 831 states
+Info:    SimpleSetup: Path simplification took 0.012828 seconds and changed from 17 to 13 states
+Info:    Preparing for run 19 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 797 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017411 seconds and changed from 18 to 12 states
+Info:    Preparing for run 20 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 734 states
+Info:    SimpleSetup: Path simplification took 0.012644 seconds and changed from 20 to 13 states
+Info:    Preparing for run 21 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1833 states
+Info:    SimpleSetup: Path simplification took 0.015171 seconds and changed from 21 to 12 states
+Info:    Preparing for run 22 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 903 states
+Info:    SimpleSetup: Path simplification took 0.011812 seconds and changed from 20 to 11 states
+Info:    Preparing for run 23 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 3013 states
+Info:    SimpleSetup: Path simplification took 0.009282 seconds and changed from 26 to 14 states
+Info:    Preparing for run 24 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 2485 states
+Info:    SimpleSetup: Path simplification took 0.011954 seconds and changed from 19 to 13 states
+Info:    Preparing for run 25 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 298 states
+Info:    SimpleSetup: Path simplification took 0.014648 seconds and changed from 16 to 14 states
+Info:    Preparing for run 26 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 968 states
+Info:    SimpleSetup: Path simplification took 0.012008 seconds and changed from 13 to 12 states
+Info:    Preparing for run 27 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 3478 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016074 seconds and changed from 28 to 13 states
+Info:    Preparing for run 28 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 3581 states
+Info:    SimpleSetup: Path simplification took 0.018864 seconds and changed from 26 to 12 states
+Info:    Preparing for run 29 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1446 states
+Info:    SimpleSetup: Path simplification took 0.011234 seconds and changed from 20 to 15 states
+Info:    Preparing for run 30 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 221 states
+Info:    SimpleSetup: Path simplification took 0.011026 seconds and changed from 13 to 9 states
+Info:    Preparing for run 31 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 276 states
+Info:    SimpleSetup: Path simplification took 0.015228 seconds and changed from 12 to 12 states
+Info:    Preparing for run 32 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 255 states
+Info:    SimpleSetup: Path simplification took 0.014667 seconds and changed from 14 to 14 states
+Info:    Preparing for run 33 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 3735 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016978 seconds and changed from 25 to 16 states
+Info:    Preparing for run 34 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 4554 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.027298 seconds and changed from 29 to 12 states
+Info:    Preparing for run 35 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 499 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.013114 seconds and changed from 19 to 13 states
+Info:    Preparing for run 36 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 771 states
+Info:    SimpleSetup: Path simplification took 0.013789 seconds and changed from 15 to 11 states
+Info:    Preparing for run 37 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 241 states
+Info:    SimpleSetup: Path simplification took 0.011616 seconds and changed from 12 to 13 states
+Info:    Preparing for run 38 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 438 states
+Info:    SimpleSetup: Path simplification took 0.016036 seconds and changed from 17 to 13 states
+Info:    Preparing for run 39 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 2400 states
+Info:    SimpleSetup: Path simplification took 0.014041 seconds and changed from 22 to 15 states
+Info:    Preparing for run 40 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 209 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.016518 seconds and changed from 12 to 14 states
+Info:    Preparing for run 41 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 116 states
+Info:    SimpleSetup: Path simplification took 0.011980 seconds and changed from 12 to 15 states
+Info:    Preparing for run 42 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1298 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.013323 seconds and changed from 22 to 13 states
+Info:    Preparing for run 43 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 292 states
+Info:    SimpleSetup: Path simplification took 0.012573 seconds and changed from 13 to 13 states
+Info:    Preparing for run 44 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 483 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.017661 seconds and changed from 15 to 11 states
+Info:    Preparing for run 45 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 853 states
+Info:    SimpleSetup: Path simplification took 0.010261 seconds and changed from 17 to 13 states
+Info:    Preparing for run 46 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 213 states
+Info:    SimpleSetup: Path simplification took 0.009017 seconds and changed from 11 to 14 states
+Info:    Preparing for run 47 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 482 states
+Info:    SimpleSetup: Path simplification took 0.015495 seconds and changed from 14 to 12 states
+Info:    Preparing for run 48 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 1179 states
+Info:    SimpleSetup: Path simplification took 0.013794 seconds and changed from 16 to 11 states
+Info:    Preparing for run 49 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 607 states
+Info:    SimpleSetup: Path simplification took 0.014932 seconds and changed from 18 to 16 states
+Info:    Benchmark complete
