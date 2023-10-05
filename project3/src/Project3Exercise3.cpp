@@ -53,7 +53,7 @@ void benchmarkHome(std::string &benchmark_name, app::SE3RigidBodyPlanning &setup
     setup.setStartAndGoalStates(start, goal);
     setup.getSpaceInformation()->setStateValidityCheckingResolution(0.01);
 
-    runtime_limit = 100.0;
+    runtime_limit = 40.0;
     memory_limit = 10000.0;  // set high because memory usage is not always estimated correctly
     run_count = 50;
 }

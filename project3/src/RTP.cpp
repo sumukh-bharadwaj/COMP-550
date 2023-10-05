@@ -85,15 +85,9 @@ ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTermina
     OMPL_INFORM("Entering the solving stage");
 
     const base::State *st = pis_.nextStart();
-    OMPL_INFORM("Debug message");
     auto *motion = new Motion(si_);
-    OMPL_INFORM("Debug message");
     si_->copyState(motion->state, st);
-    OMPL_INFORM("Debug message");
     nn_->add(motion);
-    OMPL_INFORM("Debug message");
-
-    OMPL_INFORM("Debug message");
 
     if (nn_->size() == 0)
     {
