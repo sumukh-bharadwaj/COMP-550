@@ -6,7 +6,7 @@ LD_FLAGS= -lcollisionchecking `pkg-config --libs ompl`
 
 # The c++ compiler to invoke
 CXX=c++
-all: RigidBodyPlanning
+all: Project3Exercise2
 
 clean:
 	rm -f *.o
@@ -15,7 +15,7 @@ clean:
 %.o: src/%.cpp
 	$(CXX) -c $(CXX_FLAGS) $(INCLUDE_FLAGS) $< -o $@
 
-RigidBodyPlanning: RigidBodyPlanning.o RTP.o
+Project3Exercise2: Project3Exercise2.o RTP.o
 	$(CXX) $(CXX_FLAGS) $(INCLUDE_FLAGS) -Lsrc/. -o $@ $^ $(LD_FLAGS)
 
 Project3Exercise3: Project3Exercise3.o RTP.o
