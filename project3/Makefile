@@ -6,7 +6,7 @@ LD_FLAGS= -lcollisionchecking `pkg-config --libs ompl`
 
 # The c++ compiler to invoke
 CXX=c++
-all: Project3Exercise2
+all: Project3Exercise3
 
 clean:
 	rm -f *.o
