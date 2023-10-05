@@ -18,36 +18,82 @@ ompl::geometric::RTP::RTP(const base::SpaceInformationPtr &si) : base::Planner(s
 
 ompl::geometric::RTP::~RTP()
 {
-    // freeMemory();
+    freeMemory();
+}
+
+void ompl::geometric::RTP::setup()
+{
+    Planner::setup();
+    tools::SelfConfig sc(si_, getName());
+    sc.configurePlannerRange(maxDistance_);
+
+    if (!nn_)
+        nn_.reset(tools::SelfConfig::getDefaultNearestNeighbors<Motion *>(this));
+    nn_->setDistanceFunction([this](const Motion *a, const Motion *b) { return distanceFunction(a, b); });
+}
+
+void ompl::geometric::RTP::freeMemory()
+{
+    // to be modified
+    if (nn_)
+    {
+        std::vector<Motion *> motions;
+        nn_->list(motions);
+        for (auto &motion : motions)
+        {
+            if (motion->state != nullptr)
+                si_->freeState(motion->state);
+            delete motion;
+        }
+    }
 }
 
 void ompl::geometric::RTP::clear()
 {
     Planner::clear();
     sampler_.reset();
-    // freeMemory();
+    freeMemory();
+    if (nn_)
+        nn_->clear();
     lastGoalMotion_ = nullptr;
 }
 
 void ompl::geometric::RTP::getPlannerData(base::PlannerData &data) const
 {
-    Planner::getPlannerData(data);
-    if (lastGoalMotion_)
+    std::vector<Motion *> motions;
+    if (nn_)
+        nn_->list(motions);
+
+    if (lastGoalMotion_ != nullptr)
         data.addGoalVertex(base::PlannerDataVertex(lastGoalMotion_->state));
+
+    for (auto &motion : motions)
+    {
+        if (motion->parent == nullptr)
+            data.addStartVertex(base::PlannerDataVertex(motion->state));
+        else
+            data.addEdge(base::PlannerDataVertex(motion->parent->state), base::PlannerDataVertex(motion->state));
+    }
 }
 
 ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTerminationCondition &ptc)
 {
+
     checkValidity();
     base::Goal *goal = pdef_->getGoal().get();
     auto *goal_s = dynamic_cast<base::GoalSampleableRegion *>(goal);
+    OMPL_INFORM("Entering the solving stage");
 
-    while (const base::State *st = pis_.nextStart())
-    {
-        auto *motion = new Motion(si_);
-        si_->copyState(motion->state, st);
-        nn_->add(motion);
-    }
+    const base::State *st = pis_.nextStart();
+    OMPL_INFORM("Debug message");
+    auto *motion = new Motion(si_);
+    OMPL_INFORM("Debug message");
+    si_->copyState(motion->state, st);
+    OMPL_INFORM("Debug message");
+    nn_->add(motion);
+    OMPL_INFORM("Debug message");
+
+    OMPL_INFORM("Debug message");
 
     if (nn_->size() == 0)
     {
