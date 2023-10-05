@@ -7,6 +7,7 @@
 #ifndef RANDOM_TREE_H
 #define RANDOM_TREE_H
 #include "ompl/control/planners/PlannerIncludes.h"
+#include "ompl/datastructures/NearestNeighbors.h"
 
 namespace ompl
 {
@@ -26,7 +27,7 @@ namespace ompl
                 
                 void getPlannerData(base::PlannerData &data) const override;
             
-/** \brief Representation of a motion
+                /** \brief Representation of a motion
 
                 This only contains pointers to parent motions as we
                 only need to go backwards in the tree. */

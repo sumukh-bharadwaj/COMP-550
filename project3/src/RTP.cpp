@@ -6,6 +6,8 @@
 
 #include "RTP.h"
 #include "ompl/base/goals/GoalSampleableRegion.h"
+#include <limits>
+#include "ompl/tools/config/SelfConfig.h"
 
 // TODO: Implement RTP as described
 
@@ -78,8 +80,8 @@ ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTermina
 
         /* Instead sample a random state*/
         std::vector<Motion *> MotionVector;
-        nn_ = list(MotionVector);
-        Motion *nmotion = MotionVector[rng_.uniformInt(0, MotionVector.size()-1)]
+        nn_->list(MotionVector);
+        Motion *nmotion = MotionVector[rng_.uniformInt(0, MotionVector.size()-1)];
         base::State *dstate = rstate;
 
         if (si_->checkMotion(nmotion->state, dstate))
