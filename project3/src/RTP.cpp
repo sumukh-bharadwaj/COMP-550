@@ -89,30 +89,30 @@ ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTermina
         /* sample a random control that attempts to go towards the random state, and also sample a control duration */
         unsigned int cd = controlSampler_->sampleTo(rctrl, nmotion->control, nmotion->state, rmotion->state);
 
-            if (cd >= siC_->getMinControlDuration())
-            {
-                /* create a motion */
-                auto *motion = new Motion(siC_);
-                si_->copyState(motion->state, rmotion->state);
-                siC_->copyControl(motion->control, rctrl);
-                motion->steps = cd;
-                motion->parent = nmotion;
+        if (cd >= siC_->getMinControlDuration())
+        {
+            /* create a motion */
+            auto *motion = new Motion(siC_);
+            si_->copyState(motion->state, rmotion->state);
+            siC_->copyControl(motion->control, rctrl);
+            motion->steps = cd;
+            motion->parent = nmotion;
 
-                nn_->add(motion);
-                double dist = 0.0;
-                bool solv = goal->isSatisfied(motion->state, &dist);
-                if (solv)
-                {
-                    approxdif = dist;
-                    solution = motion;
-                    break;
-                }
-                if (dist < approxdif)
-                {
-                    approxdif = dist;
-                    approxsol = motion;
-                }
+            nn_->add(motion);
+            double dist = 0.0;
+            bool solv = goal->isSatisfied(motion->state, &dist);
+            if (solv)
+            {
+                approxdif = dist;
+                solution = motion;
+                break;
             }
+            if (dist < approxdif)
+            {
+                approxdif = dist;
+                approxsol = motion;
+            }
+        }
     }
 
     bool solved = false;
