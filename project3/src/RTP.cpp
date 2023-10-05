@@ -5,6 +5,7 @@
 //////////////////////////////////////
 
 #include "RTP.h"
+#include "ompl/base/goals/GoalSampleableRegion.h"
 
 // TODO: Implement RTP as described
 
@@ -15,16 +16,14 @@ ompl::geometric::RTP::RTP(const base::SpaceInformationPtr &si) : base::Planner(s
 
 ompl::geometric::RTP::~RTP()
 {
-    freeMemory();
+    // freeMemory();
 }
 
 void ompl::geometric::RTP::clear()
 {
     Planner::clear();
     sampler_.reset();
-    freeMemory();
-    if (nn_)
-        nn_->clear();
+    // freeMemory();
     lastGoalMotion_ = nullptr;
 }
 
@@ -43,9 +42,8 @@ ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTermina
 
     while (const base::State *st = pis_.nextStart())
     {
-        auto *motion = new Motion(siC_);
+        auto *motion = new Motion(si_);
         si_->copyState(motion->state, st);
-        siC_->nullControl(motion->control);
         nn_->add(motion);
     }
 
@@ -57,24 +55,20 @@ ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTermina
 
     if (!sampler_)
         sampler_ = si_->allocStateSampler();
-    if (!controlSampler_)
-        controlSampler_ = siC_->allocDirectedControlSampler();
 
     OMPL_INFORM("%s: Starting planning with %u states already in datastructure", getName().c_str(), nn_->size());
 
     Motion *solution = nullptr;
     Motion *approxsol = nullptr;
     double approxdif = std::numeric_limits<double>::infinity();
-
-    auto *rmotion = new Motion(siC_);
+    auto *rmotion = new Motion(si_);
     base::State *rstate = rmotion->state;
-    Control *rctrl = rmotion->control;
     base::State *xstate = si_->allocState();
 
-    while (ptc == false)
+    while (!ptc)
     {
         /* sample random state (with goal biasing) */
-        if (goal_s && rng_.uniform01() < goalBias_ && goal_s->canSample())
+        if ((goal_s != nullptr) && rng_.uniform01() < goalBias_ && goal_s->canSample())
             goal_s->sampleGoal(rstate);
         else
             sampler_->sampleUniform(rstate);
@@ -82,35 +76,33 @@ ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTermina
         /* find closest state in the tree */
         // Motion *nmotion = nn_->nearest(rmotion);
 
-        /* Instead find a random state within the state space*/
+        /* Instead sample a random state*/
         std::vector<Motion *> MotionVector;
-        Motion *nmotion = MotionVector[rng_.uniformInt(0, N-1)]
+        nn_ = list(MotionVector);
+        Motion *nmotion = MotionVector[rng_.uniformInt(0, MotionVector.size()-1)]
+        base::State *dstate = rstate;
 
-        /* sample a random control that attempts to go towards the random state, and also sample a control duration */
-        unsigned int cd = controlSampler_->sampleTo(rctrl, nmotion->control, nmotion->state, rmotion->state);
-
-        if (cd >= siC_->getMinControlDuration())
+        if (si_->checkMotion(nmotion->state, dstate))
         {
-            /* create a motion */
-            auto *motion = new Motion(siC_);
-            si_->copyState(motion->state, rmotion->state);
-            siC_->copyControl(motion->control, rctrl);
-            motion->steps = cd;
+            auto *motion = new Motion(si_);
+            si_->copyState(motion->state, dstate);
             motion->parent = nmotion;
-
             nn_->add(motion);
+
+            nmotion = motion;
+
             double dist = 0.0;
-            bool solv = goal->isSatisfied(motion->state, &dist);
-            if (solv)
+            bool sat = goal->isSatisfied(nmotion->state, &dist);
+            if (sat)
             {
                 approxdif = dist;
-                solution = motion;
+                solution = nmotion;
                 break;
             }
             if (dist < approxdif)
             {
                 approxdif = dist;
-                approxsol = motion;
+                approxsol = nmotion;
             }
         }
     }
@@ -136,22 +128,17 @@ ompl::base::PlannerStatus ompl::geometric::RTP::solve(const base::PlannerTermina
         }
 
         /* set the solution path */
-        auto path(std::make_shared<PathControl>(si_));
+        auto path(std::make_shared<PathGeometric>(si_));
         for (int i = mpath.size() - 1; i >= 0; --i)
-            if (mpath[i]->parent)
-                path->append(mpath[i]->state, mpath[i]->control, mpath[i]->steps * siC_->getPropagationStepSize());
-            else
-                path->append(mpath[i]->state);
-        solved = true;
+            path->append(mpath[i]->state);
         pdef_->addSolutionPath(path, approximate, approxdif, getName());
+        solved = true;
     }
 
-    if (rmotion->state)
-        si_->freeState(rmotion->state);
-    if (rmotion->control)
-        siC_->freeControl(rmotion->control);
-    delete rmotion;
     si_->freeState(xstate);
+    if (rmotion->state != nullptr)
+        si_->freeState(rmotion->state);
+    delete rmotion;
 
     OMPL_INFORM("%s: Created %u states", getName().c_str(), nn_->size());
 
