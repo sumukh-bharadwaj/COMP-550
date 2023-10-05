@@ -35,32 +35,19 @@ void planPoint(const std::vector<Rectangle> &obstacles)
 
     // Cast the r2 pointer to the derived type, then set the bounds
     r2->as<ompl::base::RealVectorStateSpace>()->setBounds(bounds);
-
-    // Step 2) Create the SimpleSetup container for the motion planning problem.
-    // this container ensures that everything is initialized properly before
-    // trying to solve the motion planning problem.
-    // ALWAYS USE SIMPLE SETUP!  There is no loss of functionality when using
-    // this class.
     ompl::geometric::SimpleSetup ss(r2);
 
-    // Step 3) Setup the StateValidityChecker
-    // This is a function that takes a state and returns whether the state is a
-    // valid configuration of the system or not.  For geometric planning, this
-    // is a collision checker.
-    // Note, we are "binding" the obstacles to the state validity checker. The
-    // _1 notation is from std::placeholders and indicates "the first argument"
-    // to the function pointer.
     ss.setStateValidityChecker(std::bind(isValidStatePoint, std::placeholders::_1, obstacles));
 
     // Step 4) Specify the start and goal states
     // ScopedState creates the correct state instance for the state space
     ompl::base::ScopedState<> start(r2);
-    start[0] = -0.9;
-    start[1] = -0.9;
+    start[0] = -0.275;
+    start[1] = -0.123;
 
     ompl::base::ScopedState<> goal(r2);
-    goal[0] = 0.9;
-    goal[1] = 0.9;
+    goal[0] = 0.266;
+    goal[1] = 1.95;
 
     // set the start and goal states
     ss.setStartAndGoalStates(start, goal);
@@ -85,7 +72,7 @@ void planPoint(const std::vector<Rectangle> &obstacles)
         path.printAsMatrix(std::cout);
 
         // print path to file
-        std::ofstream fout("path1.txt");
+        std::ofstream fout("path3.txt");
         if (fout.is_open()) {
             // Perform file operations here
             fout << "R2" << std::endl;
@@ -144,12 +131,12 @@ void planBox(const std::vector<Rectangle> &obstacles)
     // The indexes correspond to the order that the StateSpace components were
     // added into the StateSpace
     ompl::base::ScopedState<> start(se2);
-    start[0] = -0.9;
-    start[1] = -0.9;
+    start[0] = -0.7;
+    start[1] = 0.25;
     start[2] = 0.0;
 
     ompl::base::ScopedState<> goal(se2);
-    goal[0] = 0.9;
+    goal[0] = -0.9;
     goal[1] = 0.9;
     goal[2] = 0.0;
 
@@ -175,7 +162,7 @@ void planBox(const std::vector<Rectangle> &obstacles)
         path.printAsMatrix(std::cout);
 
         // print path to file
-        std::ofstream fout("path2.txt");
+        std::ofstream fout("path4.txt");
         if (fout.is_open()) {
             // Perform file operations here
             fout << "R2" << std::endl;
@@ -195,31 +182,31 @@ void makeEnvironment1(std::vector<Rectangle> &obstacles)
 {
     // TODO: Fill in the vector of rectangles with your first environment.
     Rectangle obstacle1;
-    obstacle6.x = -0.5;
-    obstacle6.y = 1.5;
-    obstacle6.width = 1.0;
-    obstacle6.height = 0.3;
+    obstacle1.x = -0.5;
+    obstacle1.y = 1.5;
+    obstacle1.width = 1.0;
+    obstacle1.height = 0.3;
     obstacles.push_back(obstacle1);
 
     Rectangle obstacle2;
-    obstacle7.x = -0.2;
-    obstacle7.y = -0.5;
-    obstacle7.width = 0.2;
-    obstacle7.height = 1.5;
+    obstacle2.x = -0.2;
+    obstacle2.y = -0.5;
+    obstacle2.width = 0.2;
+    obstacle2.height = 1.5;
     obstacles.push_back(obstacle2);
 
     Rectangle obstacle3;
-    obstacle8.x = -0.8;
-    obstacle8.y = 0.3;
-    obstacle8.width = 0.8;
-    obstacle8.height = 0.2;
+    obstacle3.x = -0.8;
+    obstacle3.y = 0.3;
+    obstacle3.width = 0.8;
+    obstacle3.height = 0.2;
     obstacles.push_back(obstacle3);
 
     Rectangle obstacle4;
-    obstacle9.x = 0.4;
-    obstacle9.y = 0.0;
-    obstacle9.width = 0.1;
-    obstacle9.height = 2.0;
+    obstacle4.x = 0.4;
+    obstacle4.y = 0.0;
+    obstacle4.width = 0.1;
+    obstacle4.height = 2.0;
     obstacles.push_back(obstacle4);
 
 
