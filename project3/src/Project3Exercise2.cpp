@@ -194,33 +194,34 @@ void planBox(const std::vector<Rectangle> &obstacles)
 void makeEnvironment1(std::vector<Rectangle> &obstacles)
 {
     // TODO: Fill in the vector of rectangles with your first environment.
-    Rectangle obstacle;
-    obstacle.x = -0.7;
-    obstacle.y = 0.0;
-    obstacle.width = 0.1;
-    obstacle.height = 2.0;
-    obstacles.push_back(obstacle);
+    Rectangle obstacle1;
+    obstacle6.x = -0.5;
+    obstacle6.y = 1.5;
+    obstacle6.width = 1.0;
+    obstacle6.height = 0.3;
+    obstacles.push_back(obstacle1);
 
     Rectangle obstacle2;
-    obstacle2.x = -0.3;
-    obstacle2.y = -2.0;
-    obstacle2.width = 0.1;
-    obstacle2.height = 2.0;
+    obstacle7.x = -0.2;
+    obstacle7.y = -0.5;
+    obstacle7.width = 0.2;
+    obstacle7.height = 1.5;
     obstacles.push_back(obstacle2);
 
     Rectangle obstacle3;
-    obstacle3.x = 0.1;
-    obstacle3.y = 0.0;
-    obstacle3.width = 0.1;
-    obstacle3.height = 2.0;
+    obstacle8.x = -0.8;
+    obstacle8.y = 0.3;
+    obstacle8.width = 0.8;
+    obstacle8.height = 0.2;
     obstacles.push_back(obstacle3);
 
     Rectangle obstacle4;
-    obstacle4.x = 0.5;
-    obstacle4.y = -2.0;
-    obstacle4.width = 0.1;
-    obstacle4.height = 2.0;
+    obstacle9.x = 0.4;
+    obstacle9.y = 0.0;
+    obstacle9.width = 0.1;
+    obstacle9.height = 2.0;
     obstacles.push_back(obstacle4);
+
 
 }
 
@@ -228,46 +229,39 @@ void makeEnvironment2(std::vector<Rectangle> &obstacles)
 {
     // TODO: Fill in the vector of rectangles with your second environment.
     Rectangle obstacle;
-    obstacle.x = -2.0;
-    obstacle.y = -1.3;
-    obstacle.width = 2.9;
-    obstacle.height = 0.1;
+    obstacle.x = -0.45;
+    obstacle.y = -0.95;
+    obstacle.width = 0.7;
+    obstacle.height = 1.15;
     obstacles.push_back(obstacle);
 
     Rectangle obstacle2;
-    obstacle2.x = 0.8;
-    obstacle2.y = -1.2;
-    obstacle2.width = 0.1;
-    obstacle2.height = 1.5;
+    obstacle2.x = -0.9;
+    obstacle2.y = 0.5;
+    obstacle2.width = 1.4;
+    obstacle2.height = 0.1;
     obstacles.push_back(obstacle2);
 
     Rectangle obstacle3;
-    obstacle3.x = 0.0;
-    obstacle3.y = 0.3;
-    obstacle3.width = 0.9;
-    obstacle3.height = 0.1;
+    obstacle3.x = 0.4;
+    obstacle3.y = -0.2;
+    obstacle3.width = 0.1;
+    obstacle3.height = 0.8;
     obstacles.push_back(obstacle3);
 
     Rectangle obstacle4;
     obstacle4.x = -0.9;
-    obstacle4.y = 1.2;
-    obstacle4.width = 2.9;
-    obstacle4.height = 0.1;
+    obstacle4.y = -1.3;
+    obstacle4.width = 0.1;
+    obstacle4.height = 1.8;
     obstacles.push_back(obstacle4);
 
     Rectangle obstacle5;
     obstacle5.x = -0.9;
-    obstacle5.y = -0.3;
-    obstacle5.width = 0.1;
-    obstacle5.height = 1.5;
+    obstacle5.y = -1.3;
+    obstacle5.width = 1.9;
+    obstacle5.height = 0.1;
     obstacles.push_back(obstacle5);
-
-    Rectangle obstacle6;
-    obstacle6.x = -0.9;
-    obstacle6.y = -0.4;
-    obstacle6.width = 0.9;
-    obstacle6.height = 0.1;
-    obstacles.push_back(obstacle6);
 
 }
 
