@@ -17,7 +17,7 @@ namespace ompl
         class RTP : public base::Planner
         {
             public:
-                RTP();
+                RTP(const base::SpaceInformationPtr &si);
                 ~RTP() override;
 
                 base::PlannerStatus solve(const base::PlannerTerminationCondition &ptc) override;
@@ -26,7 +26,7 @@ namespace ompl
                 
                 void getPlannerData(base::PlannerData &data) const override;
 
-                base::PlannerStatus solve(const base::PlannerTerminationCondition &ptc) override;
+                // base::PlannerStatus solve(const base::PlannerTerminationCondition &ptc) override;
 
         };
 
